@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+.CompletionBox {
+  background-color: #3498db;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  border: 5px solid black;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  margin: 0 auto;
+}
+
+.CompletionBoxh1 {
+  font-size: 20px;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  padding-top: 20px;
+}
+
+.CompletionBox2 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.CompletionBoxList {
+  background-color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.CompletionBoxListValues {
+  background-color: #2ea44f;
+  text-align: left;
+  font-size: 20px;
+}
+
+.CompletionBoxListUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.CompletionBoxListUL li {
+  padding: 10px;
+}

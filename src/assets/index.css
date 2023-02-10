@@ -1,0 +1,135 @@
+/* Mistakes.jsx */
+#errors {
+  color: #2ea44f;
+}
+
+.spanMistakes {
+  color: black;
+}
+
+.headerBoard {
+  display: flex;
+  width: 28rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Board.jsx */
+#board {
+  width: 29rem; /* 450 px*/
+  height: 28rem; /* 450 px*/
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 3rem; /* 48 px*/
+  height: 3rem; /* 48 px*/
+  border: 0.063rem solid #2ea44f;
+
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile-start {
+  background-color: #a1ecb6;
+}
+
+.horizontal-line {
+  border-bottom: 0.125rem solid #063757;
+}
+
+.vertical-line {
+  border-right: 0.125rem solid #063757;
+}
+
+
+/* NumberSelector.jsx */
+#digits {
+  width: 9.375rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.number {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid black;
+  margin: 0.125rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  border-radius: 0.313rem;
+}
+
+.number:hover {
+  font-size: 26px;  
+  background-color: #3498db;
+}
+
+.inactive {
+  background-color: #2ea44f;
+}
+
+.active {
+  background-color: #3498db;  
+}
+
+.gameconfig {
+  /* background-color: yellow; */
+  width: 50%;
+ }
+
+.gamesection {
+   /* background-color: whitesmoke; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 9%;
+  justify-content: space-between;
+}
+
+.gameSelectorTimer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+.gameSelectorTimer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: orange; */
+  margin-top: 8%;
+}
+
+.main_section_primary_div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: yellowgreen;  */
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer p {
+ font-size: 20px;
+}
