@@ -11,6 +11,7 @@ This project is a personal challenge that I am developing while still learning t
 * Vite
 * React Router
 * styled-components
+* [Zustand](https://github.com/pmndrs/zustand) (state management library)
 
 ## Running locally
 
