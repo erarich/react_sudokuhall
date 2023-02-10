@@ -1,20 +1,17 @@
 
 # Sudokuhall
 
-Sudokuhall is a web app made with React where is possible play online sudoku puzzles with six levels of difficulty. We are aiming to build the most complete sudoku app.
+Sudokuhall is a web app made with React where is possible play online sudoku puzzles with six levels of difficulty.
 
 This project is a personal challenge that I am developing while still learning the basics of front-end development, more specific the React  JavaScript library.
 
 ### Built with
 
 * ReactJS
-* Bootstrap
 * Vite
 * React Router
 * styled-components
 
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
 ## Running locally
 
 1. Clone the project
@@ -67,7 +64,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Acknowledgments
 
-* [ImKennyYip/Sudoku](https://github.com/ImKennyYip/Sudoku)
-* [lacrioque/sudoku.js](https://github.com/lacrioque/sudoku.js)
-* [robatron/sudoku.js](https://github.com/robatron/sudoku.js)
-* [fabgrel10/vite-react-starter ](https://github.com/fabgrel10/vite-react-starter)
+* [ImKennyYip/Sudoku](https://github.com/ImKennyYip/Sudoku) - for the basic tutorial with vanilla JavaScript.
+* [lacrioque/sudoku.js](https://github.com/lacrioque/sudoku.js) - for the sudoku generator library.
+* [robatron/sudoku.js](https://github.com/robatron/sudoku.js) - also for the sudoku generator library.
