@@ -9,12 +9,13 @@ const GameOptionsSection = () => {
   return (
     <section className={styles.gameOptions}>
       <div>
+        <GameNumberSelector />
         <GameDifficulty />
         <div className={styles.gameMisTimer}>
           <GameMistakes />
           <GameTimer />
         </div>
-        <GameNumberSelector />
+        
         <GameExtraActions />
       </div>
     </section>
