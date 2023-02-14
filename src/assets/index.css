@@ -53,6 +53,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .number {
