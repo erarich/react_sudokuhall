@@ -41,20 +41,18 @@ const GameNumberSelector = () => {
   };
 
   return (
-    <div className="gameNumberSelector">
-      <div id="digits">
-        {numberState.numbers.map((elements, index) => (
-          <div
-            key={index}
-            className={changeClassName(index)}
-            onClick={() => {
-              changeNumSelected(index, elements);
-            }}
-          >
-            {elements.id}
-          </div>
-        ))}
-      </div>
+    <div id="digits">
+      {numberState.numbers.map((elements, index) => (
+        <div
+          key={index}
+          className={changeClassName(index)}
+          onClick={() => {
+            changeNumSelected(index, elements);
+          }}
+        >
+          {elements.id}
+        </div>
+      ))}
     </div>
   );
 };
