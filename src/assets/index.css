@@ -1,4 +1,26 @@
-/* Mistakes.jsx */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 700px;
+  min-width: 270px;
+  margin-top: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
 #errors {
   color: #2ea44f;
 }
@@ -46,7 +68,6 @@
   border-right: 0.125rem solid #063757;
 }
 
-
 /* NumberSelector.jsx */
 #digits {
   width: 9.375rem;
@@ -72,7 +93,7 @@
 }
 
 .number:hover {
-  font-size: 26px;  
+  font-size: 26px;
   background-color: #3498db;
 }
 
@@ -81,16 +102,16 @@
 }
 
 .active {
-  background-color: #3498db;  
+  background-color: #3498db;
 }
 
 .gameconfig {
   /* background-color: yellow; */
   width: 50%;
- }
+}
 
 .gamesection {
-   /* background-color: whitesmoke; */
+  /* background-color: whitesmoke; */
   display: flex;
   flex-direction: row;
   margin-top: 2%;
@@ -132,5 +153,5 @@
 }
 
 .timer p {
- font-size: 20px;
+  font-size: 20px;
 }

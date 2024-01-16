@@ -1,6 +1,5 @@
-import styles from '../../assets/innerContainer.module.css'
-import { GameSection } from '../../components/layout/GameSection';
-import GameOptionsSection from '../../components/layout/GameOptionsSection';
+import { GameSection } from "../../components/layout/GameSection";
+import GameOptionsSection from "../../components/layout/GameOptionsSection";
 
 const Inhuman = () => {
   return (
