@@ -1,16 +1,16 @@
-import styles from '../../assets/GameOptionsSection.module.css'
-import { allAppStates } from '../../pages/Index'; 
+import { allAppStates } from "../../pages/Index";
 
 const GameMistakes = () => {
-
-  const getStateCurrentMistakes = allAppStates(state => state.currentMistakes);
+  const getStateCurrentMistakes = allAppStates(
+    (state) => state.currentMistakes
+  );
 
   return (
-    <div className={styles.gameMistakes}>
+    <div className="gameMistakes">
       <p>Mistakes</p>
       <h4>{getStateCurrentMistakes}</h4>
     </div>
-  )
-}
+  );
+};
 
 export default GameMistakes;

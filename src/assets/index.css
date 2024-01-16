@@ -15,6 +15,20 @@
   width: 70%;
 }
 
+.game-options-container {
+  flex: 1;
+}
+
+.gameMisTimer {
+  display: flex;
+  justify-content: center;
+  left: 10px;
+  margin: 0 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .container {
@@ -158,4 +172,18 @@
 
 .timer p {
   font-size: 20px;
+}
+
+.gameTimer {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gameMistakes {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
