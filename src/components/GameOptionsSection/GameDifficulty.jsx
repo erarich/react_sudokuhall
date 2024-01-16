@@ -23,8 +23,6 @@ const GameDifficulty = () => {
     );
   });
 
-  // console.log(getCurrentDifficulty)
-
   const handleChange = (value) => {
     selectDiff(value);
     navigate(`/${value}`);
