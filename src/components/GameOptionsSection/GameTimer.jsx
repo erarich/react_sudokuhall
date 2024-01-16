@@ -30,11 +30,8 @@ const GameTimer = () => {
   const { time, start, pause, reset, status } = useTimer({
     autostart: true,
     onTimeUpdate: (time) => {
-      console.log("Time is updated", time);
       incrementCurrentTime(time);
-      console.log(isCompleted);
       if (isCompleted === true) {
-        console.log("Puzzle is completed!");
         pause();
       }
     },
