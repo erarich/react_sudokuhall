@@ -9,7 +9,7 @@ const Icon = styled.div`
   cursor: pointer;
   height: 50px;
   background-image: ${(props) =>
-    props.$bgd ? "url(/public/pauseIcon.png)" : "url(/public/playIcon.png)"};
+    props.$bgd ? "url(/pauseIcon.png)" : "url(/playIcon.png)"};
 `;
 
 const GameTimer = () => {
